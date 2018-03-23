@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5E6AA72064E8600085B2BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E6AA62064E8600085B2BD /* AppDelegate.m */; };
+		1B5E6AAA2064E8600085B2BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E6AA92064E8600085B2BD /* ViewController.m */; };
+		1B5E6AAD2064E8600085B2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AAB2064E8600085B2BD /* Main.storyboard */; };
+		1B5E6AAF2064E8600085B2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AAE2064E8600085B2BD /* Assets.xcassets */; };
+		1B5E6AB22064E8600085B2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AB02064E8600085B2BD /* LaunchScreen.storyboard */; };
+		1B5E6AB52064E8600085B2BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E6AB42064E8600085B2BD /* main.m */; };
+		1B5E6AC2206505B50085B2BD /* road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6ABE206505B50085B2BD /* road.jpg */; };
+		1B5E6AC3206505B50085B2BD /* Bike1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6ABF206505B50085B2BD /* Bike1.png */; };
+		1B5E6AC4206505B50085B2BD /* DeliveryBoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AC0206505B50085B2BD /* DeliveryBoy.png */; };
+		1B5E6AC5206505B50085B2BD /* Bike2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AC1206505B50085B2BD /* Bike2.png */; };
+		1B5E6AC7206522AA0085B2BD /* SportsCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AC6206522AA0085B2BD /* SportsCar.png */; };
+		1B5E6AC9206533B80085B2BD /* YellowCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E6AC8206533B80085B2BD /* YellowCar.png */; };
+		D9D8494220655B5F00258D65 /* Tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D8494020655B5E00258D65 /* Tree1.png */; };
+		D9D8494320655B5F00258D65 /* Tree2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D8494120655B5E00258D65 /* Tree2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5E6AA22064E8600085B2BD /* Krishna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krishna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E6AA52064E8600085B2BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B5E6AA62064E8600085B2BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B5E6AA82064E8600085B2BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B5E6AA92064E8600085B2BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B5E6AAC2064E8600085B2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B5E6AAE2064E8600085B2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5E6AB12064E8600085B2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5E6AB32064E8600085B2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5E6AB42064E8600085B2BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B5E6ABE206505B50085B2BD /* road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = road.jpg; path = Krishna/images/Vehicles/road.jpg; sourceTree = SOURCE_ROOT; };
+		1B5E6ABF206505B50085B2BD /* Bike1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bike1.png; path = Krishna/images/Vehicles/Bike1.png; sourceTree = SOURCE_ROOT; };
+		1B5E6AC0206505B50085B2BD /* DeliveryBoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DeliveryBoy.png; path = Krishna/images/Vehicles/DeliveryBoy.png; sourceTree = SOURCE_ROOT; };
+		1B5E6AC1206505B50085B2BD /* Bike2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bike2.png; path = Krishna/images/Vehicles/Bike2.png; sourceTree = SOURCE_ROOT; };
+		1B5E6AC6206522AA0085B2BD /* SportsCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SportsCar.png; path = Krishna/images/Vehicles/SportsCar.png; sourceTree = SOURCE_ROOT; };
+		1B5E6AC8206533B80085B2BD /* YellowCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YellowCar.png; path = Krishna/images/Vehicles/YellowCar.png; sourceTree = SOURCE_ROOT; };
+		D9D8494020655B5E00258D65 /* Tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tree1.png; path = Krishna/images/Trees/Tree1.png; sourceTree = SOURCE_ROOT; };
+		D9D8494120655B5E00258D65 /* Tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tree2.png; path = Krishna/images/Trees/Tree2.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5E6A9F2064E8600085B2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5E6A992064E8600085B2BD = {
+			isa = PBXGroup;
+			children = (
+				1B5E6AA42064E8600085B2BD /* Krishna */,
+				1B5E6AA32064E8600085B2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5E6AA32064E8600085B2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E6AA22064E8600085B2BD /* Krishna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5E6AA42064E8600085B2BD /* Krishna */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E6AA52064E8600085B2BD /* AppDelegate.h */,
+				1B5E6AA62064E8600085B2BD /* AppDelegate.m */,
+				1B5E6AA82064E8600085B2BD /* ViewController.h */,
+				1B5E6AA92064E8600085B2BD /* ViewController.m */,
+				1B5E6AAB2064E8600085B2BD /* Main.storyboard */,
+				1B5E6AAE2064E8600085B2BD /* Assets.xcassets */,
+				1B5E6AB02064E8600085B2BD /* LaunchScreen.storyboard */,
+				1B5E6AB32064E8600085B2BD /* Info.plist */,
+				1B5E6AB42064E8600085B2BD /* main.m */,
+				1B5E6ABC206505920085B2BD /* images */,
+			);
+			path = Krishna;
+			sourceTree = "<group>";
+		};
+		1B5E6ABC206505920085B2BD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D9D8493F20655B3A00258D65 /* Trees */,
+				1B5E6ABD206505A20085B2BD /* Vehicles */,
+			);
+			name = images;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1B5E6ABD206505A20085B2BD /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E6AC8206533B80085B2BD /* YellowCar.png */,
+				1B5E6AC6206522AA0085B2BD /* SportsCar.png */,
+				1B5E6ABF206505B50085B2BD /* Bike1.png */,
+				1B5E6AC1206505B50085B2BD /* Bike2.png */,
+				1B5E6AC0206505B50085B2BD /* DeliveryBoy.png */,
+				1B5E6ABE206505B50085B2BD /* road.jpg */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		D9D8493F20655B3A00258D65 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				D9D8494020655B5E00258D65 /* Tree1.png */,
+				D9D8494120655B5E00258D65 /* Tree2.png */,
+			);
+			name = Trees;
+			path = "Krishna/New Group/Trees";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5E6AA12064E8600085B2BD /* Krishna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E6AB82064E8600085B2BD /* Build configuration list for PBXNativeTarget "Krishna" */;
+			buildPhases = (
+				1B5E6A9E2064E8600085B2BD /* Sources */,
+				1B5E6A9F2064E8600085B2BD /* Frameworks */,
+				1B5E6AA02064E8600085B2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Krishna;
+			productName = Krishna;
+			productReference = 1B5E6AA22064E8600085B2BD /* Krishna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5E6A9A2064E8600085B2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.Krishna;
+				TargetAttributes = {
+					1B5E6AA12064E8600085B2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B5E6A9D2064E8600085B2BD /* Build configuration list for PBXProject "Krishna" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B5E6A992064E8600085B2BD;
+			productRefGroup = 1B5E6AA32064E8600085B2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5E6AA12064E8600085B2BD /* Krishna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5E6AA02064E8600085B2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E6AC5206505B50085B2BD /* Bike2.png in Resources */,
+				1B5E6AC7206522AA0085B2BD /* SportsCar.png in Resources */,
+				1B5E6AC4206505B50085B2BD /* DeliveryBoy.png in Resources */,
+				1B5E6AB22064E8600085B2BD /* LaunchScreen.storyboard in Resources */,
+				1B5E6AC2206505B50085B2BD /* road.jpg in Resources */,
+				D9D8494220655B5F00258D65 /* Tree1.png in Resources */,
+				1B5E6AAF2064E8600085B2BD /* Assets.xcassets in Resources */,
+				1B5E6AC3206505B50085B2BD /* Bike1.png in Resources */,
+				D9D8494320655B5F00258D65 /* Tree2.png in Resources */,
+				1B5E6AC9206533B80085B2BD /* YellowCar.png in Resources */,
+				1B5E6AAD2064E8600085B2BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5E6A9E2064E8600085B2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E6AAA2064E8600085B2BD /* ViewController.m in Sources */,
+				1B5E6AB52064E8600085B2BD /* main.m in Sources */,
+				1B5E6AA72064E8600085B2BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B5E6AAB2064E8600085B2BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E6AAC2064E8600085B2BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5E6AB02064E8600085B2BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E6AB12064E8600085B2BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5E6AB62064E8600085B2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B5E6AB72064E8600085B2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5E6AB92064E8600085B2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Krishna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krishna.Krishna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B5E6ABA2064E8600085B2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Krishna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krishna.Krishna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5E6A9D2064E8600085B2BD /* Build configuration list for PBXProject "Krishna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E6AB62064E8600085B2BD /* Debug */,
+				1B5E6AB72064E8600085B2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E6AB82064E8600085B2BD /* Build configuration list for PBXNativeTarget "Krishna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E6AB92064E8600085B2BD /* Debug */,
+				1B5E6ABA2064E8600085B2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5E6A9A2064E8600085B2BD /* Project object */;
+}

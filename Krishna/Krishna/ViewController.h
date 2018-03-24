@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#define MIN_SPEED 10
+#define MAX_SPEED 100
 
 @interface ViewController : UIViewController
 {
@@ -16,7 +18,11 @@
     NSTimer * raceOn;
     UIImageView * vehicle;
     CGFloat xPad;
+    CGFloat yPlacement;
     double score;
+    int currentSpeed;
+    UIImageView * otherV1;
+    UIImageView * otherV2;
 }
 @end
 
